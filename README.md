@@ -4,7 +4,7 @@ A simple, secure, and stylish personal note-taking web application built with Fl
 
 ---
 
-## ## About The Project
+## About The Project
 
 **KyaPata Notebook** is a full-stack web application that allows users to securely register, log in, and manage their personal notes. It provides a clean, dark-themed interface for creating, viewing, updating, and deleting notes, ensuring that each user's notes are private and accessible only to them.
 
@@ -12,7 +12,7 @@ This project was built to demonstrate core concepts in web development, includin
 
 ---
 
-## ## Key Features
+## Key Features
 
 * **Secure User Authentication**: Full registration and login system. Passwords are securely hashed using **Bcrypt**.
 * **CRUD Functionality**: Users can **C**reate, **R**ead, **U**pdate, and **D**elete their own notes.
@@ -23,7 +23,7 @@ This project was built to demonstrate core concepts in web development, includin
 
 ---
 
-## ## Tech Stack
+## Tech Stack
 
 This project is built with the following technologies:
 
@@ -34,15 +34,15 @@ This project is built with the following technologies:
 
 ---
 
-## ## Getting Started
+## Getting Started
 
 To get a local copy up and running, follow these simple steps.
 
-### ### Prerequisites
+### Prerequisites
 
 Make sure you have **Python 3.6+** and **Git** installed on your system.
 
-### ### Installation
+### Installation
 
 1.  **Clone the repository**
     ```sh
