@@ -1,83 +1,86 @@
-# To-Do List App using Flask
+# KyaPata Notebook 📝
 
+A simple, secure, and stylish personal note-taking web application built with Flask.
 
-## Installation
-
-Clone the repo link.
-
-```
-git clone <repo link>
-```
-
-Move to the project folder to create a new virtual environment for the project.
-- On Windows :
-
-    ```
-    python -m venv env
-    ```
-- On mac and Linux :
-
-    ```
-    python3 -m venv env
-    ```
-Activate the virtual environment by writing the following command.
-
-- On Windows :
-
-```
-.\env\Scripts\activate
-```
-- On mac and Linux :
-
-    ```
-    source env/bin/activate
-    ```
-
-Make sure you are in the front of the virtual environment (in the same path of virtual env) then write the following command to install the prerequisites for the project.
-
-```
-pip install -r requirements.txt
-```
-Go to the **app.py** file and run the file, you will notice that there is a file created called **todos_db** which is the database file.
-
-Press on the link which will appear in the  terminal , you notice that the link will open in the browser and you can react with the website as you like.
+![KyaPata Notebook Screenshot](E:\Github Repos\KyaPata Book\screenshots\Add note.png)
 
 ---
 
-## Project features:-
+## ## About The Project
 
-### 1. Login
+**KyaPata Notebook** is a full-stack web application that allows users to securely register, log in, and manage their personal notes. It provides a clean, dark-themed interface for creating, viewing, updating, and deleting notes, ensuring that each user's notes are private and accessible only to them.
 
-<img src="screenshots/Login.PNG" alt="login" width="660" height="190">
+This project was built to demonstrate core concepts in web development, including user authentication, database interactions, and front-end design using a back-end framework.
 
-### 2. Sign up
+---
 
-<img src="screenshots/Register.PNG" alt="sign up" width="660" height="190">
+## ## Key Features
 
-### 3. Home page
+* **Secure User Authentication**: Full registration and login system. Passwords are securely hashed using **Bcrypt**.
+* **CRUD Functionality**: Users can **C**reate, **R**ead, **U**pdate, and **D**elete their own notes.
+* **Session Management**: Uses Flask-Login to manage user sessions, keeping users logged in across requests.
+* **Private Notes**: Notes are tied to individual user accounts, so you can only see the notes you create.
+* **Task Tracking**: Notes can be marked as 'Completed' or 'Uncompleted' and can be filtered.
+* **Clean UI**: A modern, responsive, dark-themed interface built with basic HTML/CSS.
 
-<img src="screenshots/Home.PNG" alt="home" width="660" height="190">
+---
 
-### 4. Create New Task (Add Todo)
+## ## Tech Stack
 
-<img src="screenshots/add-new-task.png" alt="add task" width="660" height="190">
+This project is built with the following technologies:
 
-### 5. Completed Tasks page
+* **Backend**: ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+* **Database**: ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white) with **SQLAlchemy** (ORM)
+* **Authentication**: Flask-Login, Flask-Bcrypt
+* **Frontend**: HTML5, CSS3, Jinja2
 
-<img src="screenshots/completed-tasks.png" alt="completed tasks" width="660" height="190">
+---
 
-### 6. Uncompleted Tasks page
+## ## Getting Started
 
-<img src="screenshots/uncompleted-tasks.png" alt="uncompleted tasks" width="660" height="190">
+To get a local copy up and running, follow these simple steps.
 
-### 7. Updating Completed Task name or description or status
+### ### Prerequisites
 
-<img src="screenshots/edit-completed-task.png" alt="updating completed tasks" width="660" height="190">
+Make sure you have **Python 3.6+** and **Git** installed on your system.
 
-### 8. Updating UnCompleted Task name or description or status
+### ### Installation
 
-<img src="screenshots/edit-uncompleted-task.png" alt="updating uncompleted tasks" width="660" height="190">
+1.  **Clone the repository**
+    ```sh
+    git clone [https://github.com/your-username/KyaPatas-Notebook.git](https://github.com/your-username/KyaPatas-Notebook.git)
+    cd KyaPatas-Notebook
+    ```
 
-### 9. Logout
+2.  **Create and activate a virtual environment**
+    * This keeps your project dependencies isolated.
 
-&copy; [Muhammad Galhoum](https://github.com/muhammadgalhoum "Muhammad Galhoum")
+    ```sh
+    # Create the environment
+    python -m venv venv
+
+    # Activate on Windows
+    venv\Scripts\activate
+
+    # Activate on macOS/Linux
+    source venv/bin/activate
+    ```
+
+3.  **Install the required packages**
+    * This project uses a `requirements.txt` file to manage dependencies. To install them, run:
+    ```sh
+    pip install -r requirements.txt
+    ```
+    * (If you add new packages, remember to update the file by running `pip freeze > requirements.txt`)
+
+4.  **Run the application**
+    ```sh
+    python app.py
+    ```
+
+5.  **View the app**
+    * Open your web browser and navigate to: `http://127.0.0.1:5000`
+
+---
+
+## ## Project Structure
