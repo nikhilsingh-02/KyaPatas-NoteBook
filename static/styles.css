@@ -1,0 +1,81 @@
+/* ===== Abstract Dark Theme ===== */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  background-image: linear-gradient(145deg, #121212 0%, #1a2a3a 100%);
+  color: #e0e0e0;
+  margin-top: 5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+}
+
+/* ===== Header & Navigation ===== */
+.app-header .navbar-nav .nav-link {
+  color: #a0e8ff;
+  transition: 0.3s all ease-in;
+}
+
+.app-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+  text-shadow: 0 0 5px rgba(0, 229, 255, 0.7);
+}
+
+.bg-teal {
+  background-color: #1a1a1d; /* Darker background for navbar */
+  border-bottom: 2px solid teal;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* ===== Content Containers & Cards (Glass Effect) ===== */
+.todo-container {
+  background: transparent;
+}
+
+.content-section {
+  background: rgba(28, 28, 30, 0.75);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  margin-bottom: 20px;
+  padding: 20px 30px;
+}
+
+/* ===== To-Do Item Specifics ===== */
+.todo-title {
+  color: #00e5ff; /* Bright cyan for titles */
+  transition: 0.2s all ease-in;
+}
+
+a.todo-title:hover {
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: 0 0 8px rgba(0, 229, 255, 0.8);
+}
+
+.todo-content {
+  white-space: pre-line;
+  color: #b3b3b3;
+}
+
+.todo-metadata {
+  padding-top: 8px;
+  margin-top: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ===== User-specific Welcome Text ===== */
+#login_user_name {
+  color: #32fa7f; /* Keep the vibrant green */
+  margin-right: 25px;
+  font-weight: 500;
+  text-shadow: 0 0 5px rgba(50, 250, 127, 0.5);
+}
+
+#mySpan {
+  color: #fff;
+}
