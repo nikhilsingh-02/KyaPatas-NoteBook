@@ -2,8 +2,6 @@
 
 A simple, secure, and stylish personal note-taking web application built with Flask.
 
-![KyaPata Notebook Screenshot](./screenshots/Add note.png)
-
 ---
 
 ## ## About The Project
